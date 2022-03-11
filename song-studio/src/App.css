@@ -1,28 +1,9 @@
-/* .App {
-  text-align: center;
-} */
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-/* .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
 
 .App-link {
   color: #61dafb;
@@ -40,15 +21,15 @@
 .navbar {
   position: fixed;
   top: 0;
-  z-index:99999;
+  z-index: 99999;
   padding: 0 4%;
   width: 100%;
   height: 70px;
-  
   background: linear-gradient(
-    203deg,
-    rgb(14, 11, 12) 30%,
-    rgb(243, 88, 109) 100%
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(191, 23, 199, 1) 31%,
+    rgba(0, 212, 255, 1) 110%
   );
 }
 
@@ -60,6 +41,7 @@
   background: -webkit-linear-gradient(#eee, rgb(0, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 1px 5px 1px rgba(128, 128, 128, 0.5);
 
 }
 
