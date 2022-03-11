@@ -4,7 +4,11 @@ function Navbar() {
     
 
   return (
-    <div>Navbar</div>
+    
+      <nav className="navbar"> 
+        <h1>Musicly</h1>
+      </nav>
+    
   )
 }
 

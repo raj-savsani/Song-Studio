@@ -12,13 +12,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.list-grid {
-  position: absolute;
-  padding: 20px;
-  right: 20px;
-  cursor: pointer;
-}
-.temp {
-  width: 150px;
-  
-}
+

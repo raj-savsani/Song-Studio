@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const MainDiv = styled.div`
   display: flex;
-
+  margin-top:7%;
   justify-content: space-around;
   align-items: center;
 
@@ -38,7 +38,7 @@ export const CoverDiv = styled.div`
 
   &:hover {
     & > div {
-        border: 2px solid white;
+      border: 2px solid white;
       box-sizing: border-box;
       border-radius: 10px;
       width: ${({ list }) => (list === "true" ? "100%" : "70%")};
